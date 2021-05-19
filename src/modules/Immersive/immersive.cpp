@@ -8,6 +8,8 @@
 #include "../Bots/playerbot/PlayerbotAI.h"
 #endif
 
+class ChatHandler;
+
 using namespace immersive;
 
 map<Stats, string> Immersive::statValues;
