@@ -8,8 +8,6 @@
 #include "../Bots/playerbot/PlayerbotAI.h"
 #endif
 
-class ChatHandler;
-
 using namespace immersive;
 
 map<Stats, string> Immersive::statValues;
@@ -308,8 +306,8 @@ void Immersive::SendMessage(Player *player, string message)
         return;
     }
 #endif
-    ChatHandler &chat = ChatHandler(player->GetSession());
-    chat.PSendSysMessage(message.c_str());
+    //ChatHandler &chat = ChatHandler(player->GetSession());
+    //chat.PSendSysMessage(message.c_str());
 }
 
 
